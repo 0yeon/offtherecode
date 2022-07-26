@@ -1,10 +1,11 @@
 package com.last.code;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-@EnableJpaAuditing
+//@MapperScan(value = {"com.last.code.repository"})
+
 @SpringBootApplication
 public class CodeApplication {
 
@@ -13,5 +14,3 @@ public class CodeApplication {
     }
 
 }
-
-
